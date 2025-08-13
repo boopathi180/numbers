@@ -1,0 +1,83 @@
+/* Dark background with gradient */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image:url(image.jpg.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+/* Game container */
+.game-container {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0px 0px 20px rgba(226, 7, 7, 0.897);
+}
+
+/* Heading */
+h2 {
+    color: #00f7ff;
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-shadow: 0px 0px 8px #00f7ff;
+}
+
+/* Instructions */
+p {
+    color: #ccc;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Input field */
+#guessInput {
+    width: 80%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #00f7ff;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+    outline: none;
+    transition: 0.3s;
+}
+
+#guessInput:focus {
+    box-shadow: 0px 0px 12px #00f7ff;
+}
+
+/* Button styling */
+#btn {
+    margin-top: 15px;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    background-color: #0ed679;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#btn:hover {
+    background-color: #00d4d4;
+    box-shadow: 0px 0px 12px #00f7ff;
+}
+
+/* Message box */
+#msg {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffcc00;
+    text-shadow: 0px 0px 6px #ffcc00;
+}
